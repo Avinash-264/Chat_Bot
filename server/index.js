@@ -18,8 +18,6 @@ app.get('/', (req, res) => {
 });
 
 const PORT = process.env.BACKEND_PORT || 8000;
-console.log(process.env.GEMINI_API_KEY)
-console.log(PORT);
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
